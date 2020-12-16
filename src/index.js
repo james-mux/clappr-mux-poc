@@ -12,7 +12,7 @@ const generateShortId = function () {
 const initClapprPlayerMux = function (player, options, clappr = window.Clappr) {
   // Make sure we got a player - Check properties to ensure that a player was passed
   if (typeof player !== 'object') {
-    log.warn('[clappr-mux] You must provide a valid yourPlayer to initYourPlayerMux.');
+    log.warn('[clappr-mux] You must provide a valid Clappr player to initClapprPlayerMux.');
     return;
   }
 
